@@ -1,9 +1,13 @@
+// main library
 import React from 'react';
+// rendering in the browser
 import ReactDOM from 'react-dom';
 import './index.css';
+// main component App.js
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// React DOM.render(what you wanna render, where you want to render it)-> id root on index.html
 ReactDOM.render(
   <React.StrictMode>
     <App />
