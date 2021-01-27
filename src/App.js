@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+// main app component
+// import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// function based components
+// function App() {
+//   return (
+//     <div className='App'>
+//       <h1>Hello Intan</h1>
+//     </div>
+//   );
+// }
+
+// class based components
+// React.Component class which include lifecycle methods,etc
+class App extends Component {
+  // cant return directy from a class, so we need a method ( a function within a class)
+  // method render, a lifecycle method which run at a certain point when the components loaded
+  render() {
+    return (
+      <div className='App'>
+        <h1>Hello Intan</h1>
+      </div>
+    );
+  }
 }
 
 export default App;

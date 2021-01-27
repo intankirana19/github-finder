@@ -2,7 +2,7 @@
 import React from 'react';
 // rendering in the browser
 import ReactDOM from 'react-dom';
-import './index.css';
+// import './index.css';
 // main component App.js
 import App from './App';
 import reportWebVitals from './reportWebVitals';
