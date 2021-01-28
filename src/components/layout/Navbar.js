@@ -1,8 +1,10 @@
-// type 'rcc' then enter to generate class based components with export on the bottom (ES7 extension)
+// type 'rce' then enter to generate class based components with export on the bottom (ES7 extension)
 import React, { Component } from 'react';
 
-export default class Navbar extends Component {
+export class Navbar extends Component {
   render() {
     return <div></div>;
   }
 }
+
+export default Navbar;
